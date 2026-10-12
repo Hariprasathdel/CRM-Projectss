@@ -1,0 +1,11 @@
+{
+  "name": "crm-frontend-wrapper",
+  "version": "1.0.0",
+  "description": "Frontend launcher proxy for crm-employee",
+  "scripts": {
+    "dev": "npm --prefix crm-employee run dev",
+    "build": "npm --prefix crm-employee run build",
+    "preview": "npm --prefix crm-employee run preview",
+    "start": "npm --prefix crm-employee run dev"
+  }
+}
